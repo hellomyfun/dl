@@ -1,0 +1,136 @@
+/*轮播*/
+.banner{
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.swiper-container{
+    width: 100%;
+    //height: 100%;
+    //height: 500px;
+    overflow: hidden;
+}
+.swiper-slide {
+    font-size: 18px;
+    color:#fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*padding: 80px 60px;*/
+}
+.parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+.swiper-slide .title {
+    position: absolute;
+    top: 10%;
+    font-size: 41px;
+    font-weight: 300;
+    margin-left:20%;
+}
+.swiper-slide .subtitle {
+    position: absolute;
+    top: 17%;
+    font-size: 21px;
+    margin-left:20%;
+}
+.swiper-slide .text {
+    position: absolute;
+    top: 25%;
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+    margin-left: 20%;
+}
+/*关于我们*/
+.about_us{
+    width: 100%;
+    height: 400px;
+    background:#FCFBF7;
+}
+.about_us_title{
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.company_img{
+    width: 100%;
+    height: 100%;
+}
+.about_us_content{
+    margin-top: 2%;
+}
+.about_us_content_left{
+    //position: relative;
+}
+.about_us_content_leftimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.company{
+    width: 100%;
+}
+.company_profile{
+    font-size: 14px;
+    line-height: 2em;
+}
+.about_us_right{
+    overflow: hidden;
+}
+.swiper-container2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/*我们的故事*/
+@media (max-width: 750px) {
+    .swiper-button-prev{
+        display: none;
+    }
+    .swiper-button-next{
+        display: none;
+    }
+    /*关于我们*/
+    .swiper-slide .title {
+        position: absolute;
+        top: 5%;
+        font-size: 21px;
+        font-weight: 300;
+        margin-left:5%;
+    }
+    .swiper-slide .subtitle {
+        position: absolute;
+        top: 20%;
+        font-size: 11px;
+        margin-left:5%;
+    }
+    .swiper-slide .text {
+        position: absolute;
+        top: 35%;
+        font-size: 9px;
+        max-width: 400px;
+        line-height: 1.3;
+        margin-left: 5%;
+    }
+    .company_profile{
+        font-size: 10px;
+    }
+}
+/*在750和970像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 750px) and (max-width: 970px) {
+
+}
+/*在970和1170像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 970px) and (max-width: 1170px) {
+
+}
+/*在大于1170像素的屏幕里,这里的样式才生效*/
+@media (min-width: 1170px) {
+
+}

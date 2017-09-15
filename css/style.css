@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+.header{
+    background:#F8F8F8;
+}
+.header_content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header_content a{
+    color: #7476A3;
+}
+.header_content a:hover{
+    text-decoration:none ;
+}
+.header_logo img{
+    /*width: 213px;*/
+    /*height: 47px;*/
+}
+.header_logo{
+
+}
+.nav_main{
+    background:#212121;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.navbar-brand{
+    color: #ffffff;
+}
+.nav_list li a{
+    color: #ffffff;
+}
+.navbar-toggle{
+    background: url("../icon/navBar.png") no-repeat center;
+    background-size: 100% 100%;
+    width: 35px;
+    height: 15px;
+}
