@@ -40,9 +40,29 @@ li{
 .nav_list li a{
     color: #ffffff;
 }
-.navbar-toggle{
+.toggle_img{
     background: url("../icon/navBar.png") no-repeat center;
     background-size: 100% 100%;
     width: 35px;
     height: 15px;
+}
+@media (max-width: 750px) {
+    .toggle_img{
+        background: url("../icon/navBar.png") no-repeat center;
+        background-size: 100% 100%;
+        width: 7px;
+        height: 5px;
+    }
+}
+/*在750和970像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 750px) and (max-width: 970px) {
+
+}
+/*在970和1170像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 970px) and (max-width: 1170px) {
+
+}
+/*在大于1170像素的屏幕里,这里的样式才生效*/
+@media (min-width: 1170px) {
+
 }
