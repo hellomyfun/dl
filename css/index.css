@@ -89,6 +89,86 @@
     overflow: hidden;
 }
 /*我们的故事*/
+.story{
+    width: 100%;
+}
+.stort_title{
+    margin:0 auto;
+    margin-top: 2%;
+}
+.story_img{
+    height:auto;
+}
+.story_content{
+    background: #232a34;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2%;
+}
+.story_message{
+    font-size: 14px;
+    color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+    //text-align: center;
+    text-indent: 2em;
+    line-height: 2em;
+}
+/*最新产品*/
+.products{
+    width: 100%;
+}
+.products_title{
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.products_content{
+    margin-top: 2%;
+}
+.products_list{
+    text-align: center;
+    padding-top: 2%;
+}
+.products_list_content{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    border: 2px solid #ededed;
+}
+.products_list_content img{
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.products_list_content:hover img{
+    -webkit-transform:scale(0.9) rotate(2deg);
+    -moz-transform:scale(0.9) rotate(2deg);
+    -o-transform:scale(0.9) rotate(2deg);
+    transition: 1s;
+}
+.products_list_content:hover{
+    background: #670201;
+    transition: 1.5s;
+}
+.products_list_content:hover h3{
+    color: #ffffff;
+}
+.products_bottom{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.products_bottom a{
+    padding:1% 2%;
+    background: #bc9b58;
+    color: #ffffff;
+    border-radius:70%;
+}
+.products_bottom a:hover{
+    text-decoration: none;
+    background: #670201;
+    transition: 1s;
+}
 @media (max-width: 750px) {
     .swiper-button-prev{
         display: none;
@@ -119,6 +199,9 @@
         margin-left: 5%;
     }
     .company_profile{
+        font-size: 10px;
+    }
+    .story_message{
         font-size: 10px;
     }
 }

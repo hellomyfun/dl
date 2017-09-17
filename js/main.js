@@ -1,15 +1,17 @@
 (function () {
     // 导航条
     $('.nav_list li a').hover(function () {
-        $(this).css('background','#7F0A03');
+        $(this).css('transition','0.5s')
+        $(this).css('background','#670201');
     },function () {
-        $(this).css('background','#212121');
+        $(this).css('background','#bc9b58');
     })
     $('.navbar-brand').hover(function () {
-        $(this).css('background','#7F0A03');
+        $(this).css('background','#670201');
         $(this).css('color','#ffffff');
+        $(this).css('transition','0.5s')
     },function () {
-        $(this).css('background','#212121');
+        $(this).css('background','#bc9b58');
     })
     //banner
     var swiper = new Swiper('.swiper-container', {
