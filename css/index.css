@@ -10,7 +10,7 @@
     //height: 500px;
     overflow: hidden;
 }
-.swiper-slide {
+.swiper-container .swiper-slide {
     font-size: 18px;
     color:#fff;
     -webkit-box-sizing: border-box;
@@ -51,7 +51,7 @@
 /*关于我们*/
 .about_us{
     width: 100%;
-    height: 400px;
+    height: auto;
     background:#FCFBF7;
 }
 .about_us_title{
@@ -91,6 +91,7 @@
 /*我们的故事*/
 .story{
     width: 100%;
+    background: #ebebeb;
 }
 .stort_title{
     margin:0 auto;
@@ -125,10 +126,12 @@
 }
 .products_content{
     margin-top: 2%;
+    background: url("../icon/bg.jpg") no-repeat center;
 }
 .products_list{
     text-align: center;
     padding-top: 2%;
+    padding-bottom: 2%;
 }
 .products_list_content{
     margin: 0 auto;
@@ -150,6 +153,9 @@
     background: #670201;
     transition: 1.5s;
 }
+.products_list_content h3{
+    color: #80878f;
+}
 .products_list_content:hover h3{
     color: #ffffff;
 }
@@ -160,7 +166,7 @@
 }
 .products_bottom a{
     padding:1% 2%;
-    background: #bc9b58;
+    background: #1f201a;
     color: #ffffff;
     border-radius:70%;
 }
@@ -168,6 +174,40 @@
     text-decoration: none;
     background: #670201;
     transition: 1s;
+}
+/*产品展示*/
+.Product_display{
+    width: 100%;
+    height: auto;
+}
+.Product_display_title{
+    margin:0 auto;
+}
+.swiper-container3 {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.swiper-container3 .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: auto;
+
+}
+.swiper-container3 .swiper-button-prev{
+    width: 40px;
+    background-image: url("../icon/pre.png");
+    background-size: 40px 40px;
+}
+.swiper-container3 .swiper-button-next{
+    width: 40px;
+    background-image: url("../icon/next.png");
+    background-size: 40px 40px;
+}
+.swiper-pagination-bullet-active{
+    background:#1f201a ;
 }
 @media (max-width: 750px) {
     .swiper-button-prev{
@@ -201,9 +241,18 @@
     .company_profile{
         font-size: 10px;
     }
+    /*我们的故事*/
     .story_message{
         font-size: 10px;
     }
+    .products_list_content{
+        font-size: 12px;
+    }
+    /*产品*/
+    .products_list_content h3{
+        font-size: 12px;
+    }
+
 }
 /*在750和970像素之间的屏幕里,这里的样式才生效*/
 @media (min-width: 750px) and (max-width: 970px) {

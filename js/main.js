@@ -4,14 +4,14 @@
         $(this).css('transition','0.5s')
         $(this).css('background','#670201');
     },function () {
-        $(this).css('background','#bc9b58');
+        $(this).css('background','#1f201a');
     })
     $('.navbar-brand').hover(function () {
         $(this).css('background','#670201');
         $(this).css('color','#ffffff');
         $(this).css('transition','0.5s')
     },function () {
-        $(this).css('background','#bc9b58');
+        $(this).css('background','#1f201a');
     })
     //banner
     var swiper = new Swiper('.swiper-container', {

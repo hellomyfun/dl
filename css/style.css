@@ -16,7 +16,7 @@ li{
     padding-bottom: 10px;
 }
 .header_content a{
-    color: #bc9b58;
+    color: #1f201a;
 }
 .header_content a:hover{
     text-decoration:none ;
@@ -29,7 +29,7 @@ li{
 
 }
 .nav_main{
-    background:#bc9b58;
+    background:#1f201a;
 }
 .navbar{
     margin-bottom: 0;
@@ -46,12 +46,38 @@ li{
     width: 35px;
     height: 15px;
 }
+/*footer*/
+.footer{
+    width: 100%;
+    height: auto;
+    background:#1f201a;
+    padding-top: 2%;
+}
+.weixing{
+    width: 23%;
+}
+.footer_list{
+    color: #ffffff;
+    margin-top: 2%;
+    font-size: 14px;
+}
+.footer_title{
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5%;
+}
 @media (max-width: 750px) {
     .toggle_img{
         background: url("../icon/navBar.png") no-repeat center;
         background-size: 100% 100%;
         width: 7px;
         height: 5px;
+    }
+    .footer_list{
+       font-size: 10px;
+    }
+    .footer_title{
+       font-size: 12px;
     }
 }
 /*在750和970像素之间的屏幕里,这里的样式才生效*/
