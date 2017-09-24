@@ -1,0 +1,51 @@
+/*banner*/
+.banner{
+    height:auto;
+    padding: 0;
+}
+.banner_img{
+    width: 100%;
+}
+.main{
+    height: auto;
+}
+.title{
+    font-size: 30px;
+    color: #670201;
+    text-align: center;
+}
+.message{
+    font-size: 15px;
+    color: #333333;
+    line-height: 2em;
+    margin-top: 4%;
+}
+.pro:hover{
+    -webkit-transform:scale(0.9) rotate(2deg);
+    -moz-transform:scale(0.9) rotate(2deg);
+    -o-transform:scale(0.9) rotate(2deg);
+    transition: 1s;
+}
+@media (max-width: 750px) {
+    .title{
+        font-size: 15px;
+    }
+    .message{
+        font-size: 10px;
+    }
+    .pro_title{
+        font-size: 13px;
+    }
+}
+/*在750和970像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 750px) and (max-width: 970px) {
+
+}
+/*在970和1170像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 970px) and (max-width: 1170px) {
+
+}
+/*在大于1170像素的屏幕里,这里的样式才生效*/
+@media (min-width: 1170px) {
+
+}

@@ -1,0 +1,30 @@
+/*banner*/
+.banner{
+    height:auto;
+    padding: 0;
+}
+.banner_img{
+    width: 100%;
+}
+.main {
+    height: auto;
+}
+.main_content{
+    width: 100%;
+}
+
+@media (max-width: 750px) {
+
+}
+/*在750和970像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 750px) and (max-width: 970px) {
+
+}
+/*在970和1170像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 970px) and (max-width: 1170px) {
+
+}
+/*在大于1170像素的屏幕里,这里的样式才生效*/
+@media (min-width: 1170px) {
+
+}
